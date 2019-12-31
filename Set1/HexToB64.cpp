@@ -1,5 +1,3 @@
-#include <iostream>
-
 #include "HexToB64.h"
 
 int main(){
@@ -17,8 +15,6 @@ int main(){
     // plus the 2 LSB of the next hex character) and use
     // these 6 bits to get the resulting base64 character
     std::string resultString = HexToB64(hexInput);
-    std::cout << resultString << std::endl;
-    std::cout << b64Expected << std::endl;
     assert(resultString == b64Expected);
     return 0;
 }
