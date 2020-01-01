@@ -1,15 +1,6 @@
-#ifndef IO
-#define IO
-#include <iostream>
-#endif
-#ifndef MAP
-#define MAP
-#include <map>
-#endif
-#ifndef VEC
-#define VEC
-#include <vector>
-#endif
+#include "SingleByteXorCipher.h"
+
+
 
 #ifndef CHARFREQ
 #define CHARFREQ
@@ -43,8 +34,6 @@ std::map<char, double> charFrequency = {
     {' ', 0.1918182}
 };
 #endif
-
-#include "SingleByteXorCipher.h"
 
 /*int main(){
 

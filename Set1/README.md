@@ -10,3 +10,5 @@ to transform data for various purposes.
 [Single-Byte XOR Cipher](https://github.com/AashrayAnand/CryptoPalsCPP/blob/master/Set1/SingleByteXorCipher.cpp)
 
 [Detect Single Byte XOR Cipher](https://github.com/AashrayAnand/CryptoPalsCPP/blob/master/Set1/DetectSingleCharXor.cpp)
+
+[Repeating-Key Xor Encryption](https://github.com/AashrayAnand/CryptoPalsCPP/blob/master/Set1/RepeatingKeyXor.cpp)

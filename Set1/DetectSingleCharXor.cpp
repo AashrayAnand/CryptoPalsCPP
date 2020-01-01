@@ -1,30 +1,5 @@
-#ifndef IO
-#define IO
-#include <iostream>
-#endif
-
-#ifndef MAP
-#define MAP
-#include <map>
-#endif
-
-#ifndef VEC
-#define VEC
-#include <vector>
-#endif
-
-#ifndef TUPLE
-#define TUPLE
-#include <tuple>
-#endif
-
-#ifndef FS
-#define FS
-#include <fstream>
-#endif
-
-#include "SingleByteXorCipher.h"
 #include "DetectSingleCharXor.h"
+#include "SingleByteXorCipher.h"
 
 int main(){
     std::ifstream file;
